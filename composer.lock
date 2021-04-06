@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dee74bdc150bedb751f627f2e1ab02d",
+    "content-hash": "d461beb07cd3f27cde4f96a9ab2c81b6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4976,6 +4976,136 @@
                 }
             ],
             "time": "2021-03-28T09:42:18+00:00"
+        },
+        {
+            "name": "tenancy/framework",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tenancy/framework.git",
+                "reference": "64dcd54e3057aec868e0de37661d66cab7351564"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tenancy/framework/zipball/64dcd54e3057aec868e0de37661d66cab7351564",
+                "reference": "64dcd54e3057aec868e0de37661d66cab7351564",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^7.0 | ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Tenancy\\Providers\\TenancyProvider"
+                    ],
+                    "aliases": {
+                        "Tenancy": "Tenancy\\Facades\\Tenancy"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tenancy\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arlon Antonius",
+                    "email": "opensource@arlon.dev",
+                    "homepage": "https://arlon.dev"
+                }
+            ],
+            "description": "Creating multi tenant saas from your Laravel app with ease",
+            "keywords": [
+                "aws",
+                "gce",
+                "laravel",
+                "multi-tenant",
+                "saas",
+                "tenancy"
+            ],
+            "support": {
+                "source": "https://github.com/tenancy/framework/tree/v1.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/tenancy",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/tenancy",
+                    "type": "opencollective"
+                }
+            ],
+            "time": "2020-10-01T18:28:23+00:00"
+        },
+        {
+            "name": "tenancy/identification-driver-http",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tenancy/identification-driver-http.git",
+                "reference": "3e668d20d34e3ad029eebe41af8b98f0f07e193e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tenancy/identification-driver-http/zipball/3e668d20d34e3ad029eebe41af8b98f0f07e193e",
+                "reference": "3e668d20d34e3ad029eebe41af8b98f0f07e193e",
+                "shasum": ""
+            },
+            "require": {
+                "tenancy/framework": "*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Tenancy\\Identification\\Drivers\\Http\\Providers\\IdentificationProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tenancy\\Identification\\Drivers\\Http\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arlon Antonius",
+                    "email": "opensource@arlon.dev",
+                    "homepage": "https://arlon.dev"
+                }
+            ],
+            "description": "The tenancy/tenancy identification driver for http",
+            "keywords": [
+                "http",
+                "identification",
+                "tenancy"
+            ],
+            "support": {
+                "source": "https://github.com/tenancy/identification-driver-http/tree/v1.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/tenancy",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/tenancy",
+                    "type": "opencollective"
+                }
+            ],
+            "time": "2020-05-03T15:39:56+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

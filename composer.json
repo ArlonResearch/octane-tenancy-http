@@ -11,7 +11,9 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/octane": "^0.1.0",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "tenancy/framework": "^1.3",
+        "tenancy/identification-driver-http": "^1.3"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
